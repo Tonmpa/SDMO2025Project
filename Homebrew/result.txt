@@ -7,4 +7,3 @@ Manual TP = 58
 Improved method.
 LLM
 TP = 55
-LLM disagree 615 1340 rows processed
