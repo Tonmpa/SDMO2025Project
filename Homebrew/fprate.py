@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Path to your file
 filename = "project1devs/Evaluated_similiarity_csv.csv"
 
 # Read CSV with fallback encoding
@@ -11,7 +10,7 @@ except UnicodeDecodeError:
 
 last_col = df.columns[-1]
 
-# Skip the first row (assumed to be the header structure)
+# Skip the first row.
 data_df = df.iloc[1:]
 
 # Find the first row with empty last column
