@@ -1,0 +1,10 @@
+Processed rows: 1338
+FP rows: 1280
+FP rate: 0.9567 (95.67%)
+
+Manual TP = 58
+
+Improved method.
+LLM
+TP = 55
+LLM disagree 615 1340 rows processed
