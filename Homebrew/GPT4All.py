@@ -3,7 +3,7 @@ import sys
 from gpt4all import GPT4All
 
 # -------------------------------
-# Load GPT4All model 
+# Load GPT4All model This s*** is slow af dont run on slow hardware
 # -------------------------------
 MODEL_NAME = "mistral-7b-instruct-v0.1.Q4_0.gguf"
 

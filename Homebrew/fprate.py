@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Path to your file
 filename = "project1devs/Evaluated_similiarity_csv.csv"
 
 # Read CSV with fallback encoding
