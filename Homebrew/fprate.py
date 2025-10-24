@@ -11,7 +11,7 @@ except UnicodeDecodeError:
 
 last_col = df.columns[-1]
 
-# Skip the first row (assumed to be the header structure)
+# Skip the first row
 data_df = df.iloc[1:]
 
 # Find the first row with empty last column

@@ -90,7 +90,7 @@ def process_csv(file_path, max_rows=1340):
 
 
 if __name__ == '__main__':
-    file_path = "project1devs/Evaluated_similiarity_csv.csv"
+    file_path = "project1devs/Evaluated_similiarity_csv.csv"  #Manually evaluated file which has pair that should be same according to bird
     process_csv(file_path)
 
 
