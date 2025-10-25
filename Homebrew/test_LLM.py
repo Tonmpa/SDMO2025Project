@@ -19,7 +19,7 @@ except Exception as e:
 # Real model tests
 # -------------------------------
 
-def test_is_same_person_same_real():
+def test_is_same_person_same():
     """Test with the real GPT4All model, same name and email"""
     result = is_same_person("Alice Johnson", "alice@example.com",
                             "Alice Johnson", "alice@example.com")
@@ -27,7 +27,7 @@ def test_is_same_person_same_real():
     print("Model output:", result)
 
 
-def test_is_same_person_different_real():
+def test_is_same_person_different():
     """Test with the real model for different people"""
     result = is_same_person("Alice Johnson", "alice@example.com",
                             "Bob Smith", "bobberoo@example.com")
@@ -35,7 +35,7 @@ def test_is_same_person_different_real():
     print("Model output:", result)
 
 
-def test_process_csv_real(tmp_path):
+def test_process_csv(tmp_path):
     """Test the CSV processor using the real model"""
     csv_content = "name1;email1;name2;email2\nAlice;alice@a.com;Bob;bob@b.com\n"
     test_csv = tmp_path / "test.csv"
