@@ -1,0 +1,55 @@
+Solving the problem of dublicate developers in open-source repositories
+A Case Study on Homebrew
+
+Abstract
+
+this report analyzes author aliasing in Homebrew Git repository using 
+the Bird heuristic as a baseline and improves on it by introducing a hybrid 
+method incorporating GPT4All for distinguishing between false positives
+identified by bird. The analysis follows the Bird heuristic that is
+outlined in (Bird et al., 2006) paper. Analysis shows that the Bird 
+heuristic achieves good recall, but at the same time it suffers from
+high false positive rate. In this study it was (95.67%). The proposed LLM
+approach significantly reduces the false positives while succefully identifying
+the true positives.
+
+Project Description
+
+Homebrew is an open-source package manager for macOS and Linux. It has been active
+for a long time and is maintained via GitHub. The project has 1,048 contributors and 
+the collected data included all the contributors names and emails. After collection 
+the Bird heuristic was applied with different T values and 0.99 produced the least ammount
+of dublicates which was around 4000. out of these 4000 pairs about 1300 were manually analyzed. The result after Bird heuristic were disapointing with 
+95.67% false positive rate. Although it was able to also find the dublicates. 
+Observed issues with Bird heuristic included issues with common names such as Adam Smith and with 
+non-latin names like Abi أب . 
+
+Proposed method for improving accuracy.
+
+To mitigate Bird's weaknesses a hybrid approach was developed. This method invoved first
+running the heuristic and generating a csv file with all the dublicate pairs. After the this
+the generated csv file was verified line by line with a python script using GPT4All library and 
+a mistral-7b model. The model was given a prompt "
+Given the following two developer records, tell me if they belong to the SAME PERSON.
+Answer ONLY with 'SAME' or 'DIFFERENT'.
+
+Record 1:
+Name: {name1}
+Email: {email1}
+
+Record 2:
+Name: {name2}
+Email: {email2}
+"
+This approach preserves Bird’s efficiency while reducing the resource-intensive 
+load of the second phase.
+
+Results of the new method.
+
+Applying the GPT4All-assited heuristic to the collected data we get 55 of the 57 positives.
+This method effectively removed all problems identified with Bird. A challenge for this method is 
+that on slow hardware it takes a considerable ammount of time.
+
+Compare the results between different analyzed projects. Were there
+differences between projects that affected the performance of either
+method?.
