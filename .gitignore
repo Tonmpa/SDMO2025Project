@@ -3,3 +3,6 @@ Lib
 Scripts
 pyvenv.cfg
 project1devs/
+*.csv
+__pycache__
+.pytest_cache
