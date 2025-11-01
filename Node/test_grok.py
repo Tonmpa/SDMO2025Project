@@ -1,4 +1,4 @@
-from Node.src.duplicates_grok import compute_similarity, process_csv, read_csv
+from duplicates_grok import compute_similarity, process_csv, read_csv
 import csv
 
 EXPECTED_MINIMUM_SIMILARITY = 65

@@ -1,0 +1,5 @@
+test_grok.py::test_compute_similarity_same_name_email PASSED
+test_grok.py::test_compute_similarity_different_name PASSED
+test_grok.py::test_compute_similarity_different_email PASSED
+test_grok.py::test_compute_similarity_different_people PASSED
+test_grok.py::test_process_csv PASSED
