@@ -1,0 +1,42 @@
+src\duplicates_grok.py:6:1: E302 expected 2 blank lines, found 1
+src\duplicates_grok.py:10:1: W293 blank line contains whitespace
+src\duplicates_grok.py:13:1: W293 blank line contains whitespace
+src\duplicates_grok.py:23:1: W293 blank line contains whitespace
+src\duplicates_grok.py:26:1: E302 expected 2 blank lines, found 1
+src\duplicates_grok.py:27:80: E501 line too long (86 > 79 characters)
+src\duplicates_grok.py:29:7: E111 indentation is not a multiple of 4
+src\duplicates_grok.py:31:7: E111 indentation is not a multiple of 4
+src\duplicates_grok.py:40:1: E302 expected 2 blank lines, found 1
+src\duplicates_grok.py:45:1: E302 expected 2 blank lines, found 1
+src\duplicates_grok.py:52:1: W293 blank line contains whitespace
+src\duplicates_grok.py:56:1: W293 blank line contains whitespace
+src\duplicates_grok.py:59:1: E302 expected 2 blank lines, found 1
+src\duplicates_grok.py:68:80: E501 line too long (85 > 79 characters)
+src\duplicates_grok.py:71:1: E302 expected 2 blank lines, found 1
+src\duplicates_grok.py:76:1: W293 blank line contains whitespace
+src\duplicates_grok.py:81:1: W293 blank line contains whitespace
+src\duplicates_grok.py:84:1: W293 blank line contains whitespace
+src\duplicates_grok.py:88:1: W293 blank line contains whitespace
+src\duplicates_grok.py:90:1: W293 blank line contains whitespace
+src\duplicates_grok.py:92:80: E501 line too long (106 > 79 characters)
+src\duplicates_grok.py:94:1: W293 blank line contains whitespace
+src\duplicates_grok.py:104:80: E501 line too long (92 > 79 characters)
+src\duplicates_grok.py:108:80: E501 line too long (85 > 79 characters)
+src\duplicates_grok.py:112:80: E501 line too long (114 > 79 characters)
+src\duplicates_grok.py:116:1: W293 blank line contains whitespace
+src\duplicates_grok.py:118:80: E501 line too long (94 > 79 characters)
+src\duplicates_grok.py:120:1: E302 expected 2 blank lines, found 1
+src\duplicates_grok.py:122:1: W293 blank line contains whitespace
+src\duplicates_grok.py:124:80: E501 line too long (89 > 79 characters)
+src\duplicates_grok.py:126:1: W293 blank line contains whitespace
+src\duplicates_grok.py:133:1: W293 blank line contains whitespace
+src\duplicates_grok.py:137:1: W293 blank line contains whitespace
+src\duplicates_grok.py:141:80: E501 line too long (83 > 79 characters)
+src\duplicates_grok.py:150:1: W293 blank line contains whitespace
+src\duplicates_grok.py:152:80: E501 line too long (89 > 79 characters)
+src\duplicates_grok.py:153:80: E501 line too long (100 > 79 characters)
+src\duplicates_grok.py:154:1: W293 blank line contains whitespace
+src\duplicates_grok.py:157:1: W293 blank line contains whitespace
+src\duplicates_grok.py:161:1: W293 blank line contains whitespace
+src\duplicates_grok.py:164:1: E305 expected 2 blank lines after class or function definition, found 1
+src\duplicates_grok.py:165:80: E501 line too long (91 > 79 characters)

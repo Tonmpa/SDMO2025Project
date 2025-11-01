@@ -1,5 +1,4 @@
 import csv
-import difflib
 import sys
 import multiprocessing
 from itertools import combinations
