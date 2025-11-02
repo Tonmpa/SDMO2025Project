@@ -1,6 +1,5 @@
 """
 Unit Tests for Enhanced Developer Deduplication
-Following colleague's test plan structure from testplan.txt
 """
 
 import unittest
