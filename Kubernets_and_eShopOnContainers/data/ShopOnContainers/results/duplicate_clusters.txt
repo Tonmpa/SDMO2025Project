@@ -1,0 +1,169 @@
+======================================================================
+DUPLICATE DEVELOPER CLUSTERS
+======================================================================
+
+Total clusters found: 32
+
+Cluster 1 (8 identities):
+  • Igor Sychev <igorsych@Microsoft.com>
+  • Igor Sychev <igorsych@microsoft.com>
+  • Igor Sychev <sychev-igor.90@mail.ru>
+  • IgorSychev <igorsychev@microsoft.com>
+  • Igor_Sychev <Igor@Sychev.com>
+  • Sychev Igor <igorsych@microsoft.com>
+  • SychevIgor <SychevIgor@users.noreply.github.com>
+  • igorsych <igorsych@microsoft.com>
+
+Cluster 2 (3 identities):
+  • Andre Passos <andre-ap2@hotmail.com>
+  • André Passos <andre-ap2@hotmail.com>
+  • André Silva <andrefilipegsilva@outlook.com>
+
+Cluster 4 (3 identities):
+  • Javier Suárez Ruiz <javiersuarezruiz@hotmail.com>
+  • Javier Suárez Ruiz <javiersuarezruiz@hotmail.com>
+  • Javier Suárez Ruiz <jsuarez@plainconcepts.com>
+
+Cluster 8 (3 identities):
+  • David Britch <davidbritch@Davids-MBP.lan>
+  • David Britch <davidbritch@Davids-MacBook-Pro.local>
+  • David Britch <davidbritch@users.noreply.github.com>
+
+Cluster 9 (2 identities):
+  • Lee Dumond <Lee_Dumond@aisreview.com>
+  • Lee Dumond <leedumond@gmail.com>
+
+Cluster 11 (3 identities):
+  • Ivan <ivanbuha@outlook.com>
+  • Ivan Buha <Ivan.Buha@communitybrands.com>
+  • Ivan Buha <ivanbuha@outlook.com>
+
+Cluster 12 (2 identities):
+  • Miguel Veloso <mveloso@plainconcepts.com>
+  • Miguel Veloso <mvelosop@gmail.com>
+
+Cluster 13 (6 identities):
+  • CESARDELATORRE <CESARDL@MICROSOFT.COM>
+  • CESARDELATORRE <cesardl@microsoft.com>
+  • CESARDL <CESARDL@SURFBOOKCESARDL>
+  • Cesar De la Torre <cesardl@Cesars-MacBook-Pro.local>
+  • Cesar De la Torre <cesardl@microsoft.com>
+  • Cesar De la Torre Llorente <cesardl@microsoft.com>
+
+Cluster 14 (3 identities):
+  • Christian Arenas <carenas@plainconcepts.com>
+  • Christian Arenas <christian.arenasnavarro@hotmail.com>
+  • Christian Arenas <christian147_@hotmail.com>
+
+Cluster 15 (3 identities):
+  • Reuben Bond <203839+ReubenBond@users.noreply.github.com>
+  • Reuben Bond <rebond@microsoft.com>
+  • Reuben Bond <reuben.bond@gmail.com>
+
+Cluster 16 (2 identities):
+  • Rafsanul Hasan <rafsanulhasan@outlook.com>
+  • rafsanulhasan <rafsanulhasan@RHPC-MSI>
+
+Cluster 17 (4 identities):
+  • Eric Erhardt <eric.erhardt@microsoft.com>
+  • Eric Torre <etorreg@gmail.com>
+  • ericuss <etorre@gmail.com>
+  • ericuss <etorreg@gmail.com>
+
+Cluster 18 (2 identities):
+  • Glenn Condron <glennc@microsoft.com>
+  • glennc <glennc@microsoft.com>
+
+Cluster 20 (2 identities):
+  • Daniyar Alpyspayev <daniyar.alpyspayev@gmail.com>
+  • Daniyar Alpyspayev <daniyara@thereachagency.com>
+
+Cluster 21 (4 identities):
+  • DESKTOP-V1VLQ15\dsanz <dsanz@plainconcepts.com>
+  • David Sanz <dsanz@plainconcepts.com>
+  • David Sanz <dsrodenas@users.noreply.github.com>
+  • dsanz <dsanz@plainconcepts.com>
+
+Cluster 22 (2 identities):
+  • Sumit Ghosh <13281246+sughosneo@users.noreply.github.com>
+  • Sumit Ghosh <sumit.ghosh@neudesic.com>
+
+Cluster 24 (2 identities):
+  • Tarun Jain <87998741+erjain@users.noreply.github.com>
+  • Tarun Jain <v-tjain@microsoft.com>
+
+Cluster 25 (2 identities):
+  • Marcos Cobeña Morián <mcobena@plainconcepts.com>
+  • Marcos Cobeña Morián <marcoscm.digital@gmail.com>
+
+Cluster 26 (2 identities):
+  • Mateusz Karkula <karql.pl@gmail.com>
+  • Mateusz Karkula <mateusz.karkula@comarch.com>
+
+Cluster 28 (2 identities):
+  • Erik Pique <epique@plainconcepts.com>
+  • erikpique <erik.pique@gmail.com>
+
+Cluster 29 (2 identities):
+  • Carlos Cañizares Estévez <c.canizaresestevez@hotmail.com>
+  • Carlos Cañizares Estévez <ccanizares@plainconcepts.com>
+
+Cluster 30 (3 identities):
+  • Jose <jose.manuel.corral@gmail.com>
+  • José Corral <jcorral@plainconcepts.com>
+  • jmanuelcorral <jcorral@plainconcepts.com>
+
+Cluster 31 (2 identities):
+  • Bill Wagner <wiwagn@microsoft.com>
+  • BillWagner <bill.w.wagner@outlook.com>
+
+Cluster 32 (5 identities):
+  • Unai <unai@plainconcepts.com>
+  • Unai Zorrilla Castro <Unai Zorrilla Castro>
+  • Unai Zorrilla Castro <unai@plainconcepts.com>
+  • unai <unai@plainconcepts.com>
+  • unaizorrilla <unai@plainconcepts.com>
+
+Cluster 33 (6 identities):
+  • Nish <nish@xamarin.com>
+  • Nish <nnish@live.com>
+  • Nish Anil <nanil@microsoft.com>
+  • Nish Anil <nish@microsoft.com>
+  • Nish Anil <nish@xamarin.com>
+  • Nish Anil <nnish@live.com>
+
+Cluster 34 (3 identities):
+  • Kyle Baley <kyle@baley.org>
+  • Kyle White <kyle@xamarin.com>
+  • Kyle White <kywhi@microsoft.com>
+
+Cluster 35 (2 identities):
+  • Sander Holvoet <holvoetsander@hotmail.com>
+  • Sander Obdeijn <sander@xprtz.net>
+
+Cluster 36 (2 identities):
+  • Daniel Abrahamberg <daniel@abrahamberg.com>
+  • Daniel Larsen <dalars@microsoft.com>
+
+Cluster 37 (2 identities):
+  • Borja García <borjasanes@hotmail.com>
+  • Borja García Rodríguez <bgarcia@plainconcepts.com>
+
+Cluster 38 (2 identities):
+  • PLAINCONCEPTS\ccanizares <ccanizares@plainconcepts.com>
+  • PLAINCONCEPTS\lruiz <lruiz@plainconcepts.com>
+
+Cluster 39 (2 identities):
+  • Gajendra Babu Thokala [MSFT] <gajendra.babu@hotmail.com>
+  • Gajendra Thokala <gababu@microsoft.com>
+
+Cluster 40 (8 identities):
+  • Eduard Tomas <etomas@gmail.com>
+  • Eduard Tomàs <etomas@gmail.com>
+  • Ramon Smits <ramon.smits@gmail.com>
+  • RamonTC <ramon.tomas84@hotmail.com>
+  • Ramón Tomás <ramon.tomas84@hotmail.com>
+  • Ramón Tomás <rtomas@plainconcepts.com>
+  • eiximenis <etomas@gmail.com>
+  • etomas <etomas@gmail.com>
+

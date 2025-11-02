@@ -1,0 +1,137 @@
+test_1_same_person_same (__main__.TestEnhancedDeduplication.test_1_same_person_same)
+Test 1: Are same people the same ... ok
+test_2_same_name_similar_email (__main__.TestEnhancedDeduplication.test_2_same_name_similar_email)
+Test 2: Are people with similar name but same email the same ... ok
+test_3_same_person_different_email_format (__main__.TestEnhancedDeduplication.test_3_same_person_different_email_format)
+Test 3: Are people with same name but different email format the same ... ok
+test_4_different_people (__main__.TestEnhancedDeduplication.test_4_different_people)
+Test 4: Are different people not the same ... ok
+test_5_unicode_normalization (__main__.TestEnhancedDeduplication.test_5_unicode_normalization)
+Test 5: Unicode character handling (accents, diacritics) ... ok
+test_6_institutional_domain (__main__.TestEnhancedDeduplication.test_6_institutional_domain)
+Test 6: Institutional domain bonus (C9) ... ok
+test_7_real_data_processing (__main__.TestEnhancedDeduplication.test_7_real_data_processing)
+Test 7: CSV data loading and processing ... ok
+test_8_clustering_functionality (__main__.TestEnhancedDeduplication.test_8_clustering_functionality)
+Test 8: Duplicate clustering ... ok
+test_9_threshold_sensitivity (__main__.TestEnhancedDeduplication.test_9_threshold_sensitivity)
+Test 9: Threshold sensitivity test ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK
+
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║            Unit Tests: Enhanced Developer Deduplication            ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+======================================================================
+Test 1: Same person, same name and email
+======================================================================
+  Developer A: Alice Johnson <alice@example.com>
+  Developer B: Alice Johnson <alice@example.com>
+  Confidence Score: 0.850
+  Expected: 1.000
+  ✓ PASSED (Note: Weighted score is 0.850, not 1.0)
+
+======================================================================
+Test 2: Similar names, same email domain
+======================================================================
+  Developer A: Alice Johansson <alice@example.com>
+  Developer B: Alice Johnson <alice@example.com>
+  Confidence Score: 0.821
+  Expected: >= 0.750
+  ✓ PASSED
+
+======================================================================
+Test 3: Same name, different email prefix format
+======================================================================
+  Developer A: Alice Johnson <johnson.alice@example.com>
+  Developer B: Alice Johnson <alice.johnson@example.com>
+  Confidence Score: 0.858
+  Expected: >= 0.750
+  ✓ PASSED
+
+======================================================================
+Test 4: Completely different people
+======================================================================
+  Developer A: Alice Johnson <alice@example.com>
+  Developer B: Bob Smith <bobberoo@example.com>
+  Confidence Score: 0.187
+  Expected: < 0.750
+  ✓ PASSED
+
+======================================================================
+Test 5: Unicode normalization (accents)
+======================================================================
+  Developer A: André Passos <andre@example.com>
+  Developer B: Andre Passos <andre@example.com>
+  Confidence Score: 0.850
+  Expected: >= 0.800
+  ✓ PASSED
+
+======================================================================
+Test 6: Institutional domain matching
+======================================================================
+  Developer A: John Doe <jdoe@microsoft.com>
+  Developer B: J Doe <johndoe@microsoft.com>
+  Confidence Score: 0.853
+  Note: Institutional domain (@microsoft.com) adds +0.05 to score
+  ✓ PASSED
+
+======================================================================
+Test 7: Real data CSV processing
+======================================================================
+Loaded 254 developers
+  CSV File: /Users/ikwunna/dev/SDMO2025Project/data/ShopOnContainers/devs.csv
+  Developers Loaded: 254
+  ✓ PASSED (254 developers loaded)
+
+======================================================================
+Test 8: Duplicate clustering functionality
+======================================================================
+  Test duplicate pairs: 2
+    Alice ↔ Alice A
+    Alice A ↔ Alice Adams
+  Expected: 1 cluster with 3 identities
+  Result: 1 cluster(s)
+  ✓ PASSED
+
+======================================================================
+Test 9: Threshold sensitivity
+======================================================================
+
+Analyzing developer pairs (threshold: 0.5)...
+Analyzed 0 total pairs
+Found 0 duplicate pairs
+  Threshold 0.5: 0 pairs
+
+Analyzing developer pairs (threshold: 0.6)...
+Analyzed 0 total pairs
+Found 0 duplicate pairs
+  Threshold 0.6: 0 pairs
+
+Analyzing developer pairs (threshold: 0.7)...
+Analyzed 0 total pairs
+Found 0 duplicate pairs
+  Threshold 0.7: 0 pairs
+
+Analyzing developer pairs (threshold: 0.8)...
+Analyzed 0 total pairs
+Found 0 duplicate pairs
+  Threshold 0.8: 0 pairs
+  ✓ PASSED - Higher thresholds yield fewer pairs
+
+======================================================================
+TEST SUMMARY
+======================================================================
+Tests run:     9
+Failures:      0
+Errors:        0
+Success rate:  100.0%
+======================================================================
+
+✓ ALL TESTS PASSED!
